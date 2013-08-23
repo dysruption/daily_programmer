@@ -1,3 +1,12 @@
+# # Input Description
+# On standard console input, you will be given two space-delimited integers N and M: N is the number of students
+# (which ranges from 1 to 60, inclusive), and M is the number of assignments (which ranges from 4 to 100, inclusive).
+# This will be followed by N lines of text, each starting with an upper-case unique string being is your students name.
+# This is then followed by M integers, which are the grades ranging from 0 to 20, inclusively.
+# # Output Description
+# On the first line of output, print the class' average grade.
+# Then, for each student, print their name and average grade (up to two decimal points precision).
+
 def grades(input)
   lines = input.split(/\n/)
   grades = lines[1..lines.length]
